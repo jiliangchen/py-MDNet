@@ -4,7 +4,7 @@
 # prepare dataset
 ## image sequence
 ```
-    ffmpeg -i 1.mp4 -vsync vfr -qscale:v 2 ./img/%03d.jpeg
+    ffmpeg -i 1.mp4 -vsync vfr -qscale:v 2 ./img/%03d.jpg
 ```
 ## groundtruth_rect.txt
 ```
