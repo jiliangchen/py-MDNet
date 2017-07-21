@@ -27,9 +27,10 @@ If you're using this code for your research, please cite:
  cd tracking
  python run_tracker.py -s DragonBaby [-d (display fig)] [-f (save fig)]
  
-#### try
-  download dataset from [OTB ](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html/) or 
 ```
+#### dataset
+  download dataset from [OTB ](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html/) or 
+
  - You can provide a sequence configuration in two ways (see tracking/gen_config.py):
    - ```python run_tracker.py -s [seq name]```
    - ```python run_tracker.py -j [json path]```
