@@ -39,10 +39,14 @@ def gen_config(args):
         result_path = param['result_path']
         gt = None
         
-    if args.savefig:
+    #if args.savefig:
+    #always savefig
+    if True:
         if not os.path.exists(savefig_dir):
             os.makedirs(savefig_dir)
     else:
         savefig_dir = ''
-
+    
+    #do not need gt
+    gt = None
     return img_list, init_bbox, gt, savefig_dir, args.display, result_path
