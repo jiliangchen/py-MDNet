@@ -3,12 +3,11 @@
 
 # prepare dataset
 ## image sequence
-''''
+```
     ffmpeg -i 1.mp4 -vsync vfr -qscale:v 2 ./img/%03d.jpeg
-''''
-## groundtruth_rect.txt1101,142,178,200
-1099,143,180,200
-''''
+```
+## groundtruth_rect.txt
+```
 1101,142,178,200
 1099,143,180,200
-''''
+```
