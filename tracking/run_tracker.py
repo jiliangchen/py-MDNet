@@ -5,6 +5,8 @@ import time
 import argparse
 import json
 from PIL import Image
+mport matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 
 import torch
